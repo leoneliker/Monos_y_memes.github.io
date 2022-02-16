@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html lang=en>
+	<head>
+		<title>Monos y memes</title>
+		<meta charset="utf-8">
+		<meta name="author" content="Iker Iturralde">
+		<META name="description" content="Trabajo final segundo trismetre DAM1 sobre monos">
+		<META name="keywords" lang="es" content="Monos, golpes, graciosos">
+		<link rel="shortcut icon" href="../imgs/favicon.ico" type="image/x-icon">
+		<link rel="StyleSheet" href="../css/colab.css" type="text/css">
+	</head>
+	<body>
+		<div id="contenedor">
+			<div id="info">
+				<h1>Colabora con nosotros...</h1> 
+				<h2 style="text-align:right; margin-right:10px"> ...y expande el conocimiento de todos!</h2>
+				<p>Si has hecho click en este apartado, es porque seguro que tienes muchas ganas de compartir cualquier mono-cosa con nosotros y el mundo.</p>
+				<p>Si esto es así, está de suerte! Porque aqui podras completar el formulario y compartir tu sabidura con nuestro equipo, el cual la analizará y añadirá si es buena y correcta para la página.</p>
+				<p>No tengas miedo, no te llegará ningún correo de spam, ni te cobraremos nada por tu participación, al contrario! Desde el equipo "monos y memes" te estaremos eternamente agradecidos y te deseamos una lluvia de platanos celestial como premio ante tu ayuda.</p>
+				<img src="../imgs/platano.gif" alt="Platano que agradece">
+			</div>
+			<aside id="formulario">
+				<form name="ayuda" action="enviado.html" target="_blank" method="get">
+					<fieldset>
+						<legend>Datos del usuario</legend>
+						<p>Si es tan amable, por favor, indique aquí su nombre:<input name="nombre" type="text" size="15" maxlength="35" required="required">(*) <br>y sus apellidos. <input type="text" name="apellidos" size="20" maxlength="60" required="required">(*)</p>
+						<p>Además, por temas estadísticos, agradeceriamos saber su provincia <input name="provincia" type="text" size="15" maxlength="25">,<br> localidad <input type="text" name="localidad" size="15" maxlength="25"> y su codigo postal. <input name="codigo" type="text" size="3" maxlength="5" placeholder="XXXXX" pattern="[0-9]{5}"></p>
+						<p>Por último, requerimos de su fecha de nacimiento <input name="nacimiento" required="required" type="date"> puesto que solo pueden colaborar mayores de edad, su correo <input name="correo" type="email" required="required" size="15"> y telefono <input type="text" required="required" size="8" maxlength="9" name="telefono" placeholder="XXXXXXXXX" pattern="[0-9]{9}"> por si necesitamos contactar con usted acerca de la información o sugerencias proporcionadas.</p>
+					</fieldset>
+					<fieldset>
+						<legend>Descripción del contenido a añadir</legend>
+						<textarea name="desc" cols="94"  rows="12" placeholder="Introduzca aquí lo que quieres aportar a la página" ></textarea>
+					</fieldset>
+					<fieldset style="padding:10px; line-height:30px">
+						<legend>Documentos a adjuntar y declaración de políticas</legend>
+						<label><input type="checkbox" required="required" name="cond" >Acepta y cumple los <a target="_blank" href="https://policies.google.com/terms?hl=es">terminos y condiciones </a>del servicio otorgado</label>
+						<br><br>
+						<label>Por favor, adjunte aquí cualquier pdf, foto o video para complimentar su información.	<input type="file" name="otros" size="150" accept="application/pdf"></label>
+						<br><br>
+						<label><input type="submit" /></label>
+						<label ><input type="reset" value="Limpiar datos" /></label>
+					</fieldset>
+				</form>
+			</aside>
+		</div>
+	</body>
+</html>

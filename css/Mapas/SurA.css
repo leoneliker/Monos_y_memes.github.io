@@ -1,0 +1,27 @@
+*{margin:0px;
+padding:0px;
+box-sizing:border-box;
+cursor:url(../../imgs/Monkey.cur),auto;}
+
+#imagen{background-color:#F3F3F3;
+			width:802px;
+			height:1060px;
+			position:relative;
+			margin:auto}
+
+#guia{position:absolute;
+		width:400px;
+		height:50px;
+		top:500px;
+		right:40px;
+		border:1px solid black;
+		background-color:#C0C0C0;
+		z-index:6}
+		
+#frame{position:absolute;
+		width:400px;
+		height:450px;
+		top:550px;
+		right:40px;
+		border:1px solid black;
+		z-index:6}

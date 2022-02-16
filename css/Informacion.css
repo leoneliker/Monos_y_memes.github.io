@@ -1,0 +1,64 @@
+*{margin:0px;
+padding:0px;
+box-sizing:border-box;
+cursor:url(../imgs/Monkey.cur),auto;
+}
+
+#contenedor{width:100%;
+			height:1500px;
+			position:relative;}
+			
+#texto{width:65%;
+		height:1485px;
+		position:relative;
+		left:15px;
+		top:15px;
+		}
+
+h1{font-size:40px;
+	text-decoration:underline}
+
+h2{font-size:25px;
+	text-decoration:underline}
+	
+p{font-size:20px;
+	justify:justify;
+	margin:auto}
+#son{position:absolute;
+	top:230px;
+	right:60px;
+	width:400px;
+	height:300px;}
+	
+#esp{position:absolute;
+	top:1200px;
+	right:60px;
+	width:400px;
+	height:300px;}
+	
+#pis{position:absolute;
+	top:1800px;
+	right:60px;
+	width:400px;
+	height:300px;}
+	
+img:hover{transform:scale(1.2);}
+
+ul{margin-left:10px;
+	margin-top:10px}
+ul li p{display: none}
+ul li img{display:none}
+ul li:hover p{display:block;
+				background-color:#C0C0C0;
+				border:1px solid black;
+				position:absolute;
+				left:250px;
+				top:720px}
+ul li:hover img{display:block;
+				background-color:#C0C0C0;
+				border:1px solid black;
+				position:absolute;
+				left:1100px;
+				top:720px;
+				width:400px;
+				height:300px}
