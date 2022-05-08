@@ -26,7 +26,7 @@
 				</xsl:for-each>
 			</table>
 			
-			<h2>Para mas información, haz click <a href="htmls/Informacion.html" target="iframe" >aquí</a>.</h2>
+			<h2>Para mas información, haz click <a href="../../htmls/Informacion.html" target="iframe" >aquí</a>.</h2>
 			
 		</body>
 	</html>
