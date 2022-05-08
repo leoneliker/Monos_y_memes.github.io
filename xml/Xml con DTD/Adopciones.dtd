@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT adopciones (adoptante+)>
+	<!ELEMENT adoptante (dni, nombre, apellido1, apellido2?, edad, localidad, correo, telefono+, adopcion+)>
+		<!ELEMENT dni (#PCDATA)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ELEMENT apellido1 (#PCDATA)>
+		<!ELEMENT apellido2 (#PCDATA)>
+		<!ELEMENT edad (#PCDATA)>
+		<!ELEMENT localidad (#PCDATA)>
+		<!ELEMENT correo (#PCDATA)>
+		<!ELEMENT telefono (#PCDATA)>
+			<!ATTLIST telefono tipo (fijo|movil) #REQUIRED >
+		<!ELEMENT adopcion (#PCDATA)>

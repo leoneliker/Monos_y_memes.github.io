@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="adopciones">
+		<complexType>
+			<sequence>
+				<element name="adoptante" maxOccurs="unbounded">
+					<complexType>
+						<sequence>
+							<element name="dni">
+								<simpleType>
+									<restriction base="string">
+										<pattern value="[0-9]{8}[A-Z]{1}"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="nombre">
+								<simpleType>
+									<restriction base="string">
+										<maxLength value="30"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="apellido1">
+								<simpleType>
+									<restriction base="string">
+										<maxLength value="30"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="apellido2" minOccurs="0">
+								<simpleType>
+									<restriction base="string">
+										<maxLength value="30"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="edad">
+								<simpleType>
+									<restriction base="short">
+										<minInclusive value="16"/>
+										<maxInclusive value="99"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="localidad" type="string"/>
+							<element name="correo">
+								<simpleType>
+									<restriction base="string">
+										<pattern value="[0-9a-zA-Z.]{1,50}@[a-z]{1,25}[.][a-z]{2,4}"/>
+									</restriction>
+								</simpleType>
+							</element>
+							<element name="telefono" maxOccurs="unbounded">
+								<complexType>
+									<simpleContent>
+										<extension base="string">
+											<attribute name="tipo" use="required">
+												<simpleType>
+													<restriction base="string">
+														<enumeration value="fijo"/>
+														<enumeration value="movil"/>
+													</restriction>
+												</simpleType>
+											</attribute>
+										</extension>
+									</simpleContent>
+								</complexType>
+							</element>
+							<element name="adopcion" maxOccurs="unbounded">
+								<simpleType>
+									<restriction base="string">
+										<pattern value="[a-zA-Z]{1,20}[0-9]{2}"/>
+									</restriction>
+								</simpleType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+			</sequence>
+		</complexType>
+	</element>
+</schema>

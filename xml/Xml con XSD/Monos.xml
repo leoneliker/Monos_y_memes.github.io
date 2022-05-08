@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Monos.xsd">
+	<mono>
+		<id>01</id>
+		<nombre>Mario Antonio</nombre>
+		<especie>Macaco</especie>
+		<procedencia>
+			<nombrePais>España</nombrePais>
+			<clima>Soleado</clima>
+			<poblacion>200</poblacion>
+		</procedencia>
+		<edad>3</edad>
+		<alimentacion>Bananas</alimentacion>
+		<adoptado>No</adoptado>
+	</mono>
+	
+	<mono>
+		<id>01</id>
+		<nombre>Antonio Jose</nombre>
+		<especie>Chimpance</especie>
+		<procedencia>
+			<nombrePais>Mali</nombrePais>
+			<clima>Soleado</clima>
+			<poblacion>2000</poblacion>
+		</procedencia>
+		<procedencia>
+			<nombrePais>Senegal</nombrePais>
+			<clima>Aspero</clima>
+			<poblacion>100</poblacion>
+		</procedencia>
+		<edad>5</edad>
+		<alimentacion>Aguacates</alimentacion>
+		<adoptado>Si</adoptado>
+	</mono>
+	
+	<mono>
+		<id>02</id>
+		<nombre>Pancho Valdez</nombre>
+		<especie>Macaco</especie>
+		<procedencia>
+			<nombrePais>Brasil</nombrePais>
+			<clima>Gelido</clima>
+			<poblacion>2500</poblacion>
+		</procedencia>
+		<edad>22</edad>
+		<alimentacion>Bananas</alimentacion>
+		<adoptado>Si</adoptado>
+	</mono>
+	
+	<mono>
+		<id>01</id>
+		<nombre>Gonzalez Castro</nombre>
+		<especie>Gorila</especie>
+		<procedencia>
+			<nombrePais>España</nombrePais>
+			<clima>Soleado</clima>
+			<poblacion>100</poblacion>
+		</procedencia>
+		<edad>34</edad>
+		<alimentacion>Bananas</alimentacion>
+		<adoptado>Si</adoptado>
+	</mono>
+	
+	<mono>
+		<id>01</id>
+		<nombre>Solome Segundo</nombre>
+		<especie>Titi</especie>
+		<procedencia>
+			<nombrePais>Portugal</nombrePais>
+			<clima>Soleado</clima>
+			<poblacion>100</poblacion>
+		</procedencia>
+		<procedencia>
+			<nombrePais>Gibraltar</nombrePais>
+			<clima>Soleado</clima>
+			<poblacion>4000</poblacion>
+		</procedencia>
+		<edad>0</edad>
+		<alimentacion>Bananas</alimentacion>
+		<adoptado>No</adoptado>
+	</mono>
+	
+	<mono>
+		<id>01</id>
+		<nombre>Aurelion Sol</nombre>
+		<especie>Mono</especie>
+		<procedencia>
+			<nombrePais>Gibraltar</nombrePais>
+			<clima>Soleado</clima>
+			<poblacion>4000</poblacion>
+		</procedencia>
+		<edad>3</edad>
+		<alimentacion>Bananas</alimentacion>
+		<adoptado>No</adoptado>
+	</mono>
+	
+	<mono>
+		<id>02</id>
+		<nombre>Cho'Gath</nombre>
+		<especie>Gorila</especie>
+		<procedencia>
+			<nombrePais>Kenia</nombrePais>
+			<clima>Nublado</clima>
+			<poblacion>420</poblacion>
+		</procedencia>
+		<edad>38</edad>
+		<alimentacion>Bananas</alimentacion>
+		<adoptado>Si</adoptado>
+	</mono>
+</monos>

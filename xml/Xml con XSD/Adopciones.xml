@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adopciones xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Adopciones.xsd">
+
+	<adoptante>
+		<dni>78979456F</dni>
+		<nombre>Manuel</nombre>
+		<apellido1>Jeremias</apellido1>
+		<apellido2>Lopez</apellido2>
+		<edad>25</edad>
+		<localidad>Valdemoro</localidad>
+		<correo>manuel.jeremiaslopez@gmail.com</correo>
+		<telefono tipo="movil">658945866</telefono>
+		<adopcion>Chimpance01</adopcion>
+		<adopcion>Macaco02</adopcion>
+	</adoptante>
+	
+<adoptante>
+		<dni>13565413G</dni>
+		<nombre>Manolo</nombre>
+		<apellido1>Iturriaga</apellido1>
+		<edad>34</edad>
+		<localidad>Pinto</localidad>
+		<correo>M.Iturriaga@gmail.com</correo>
+		<telefono tipo="movil">699253645</telefono>
+		<telefono tipo="fijo">912562354</telefono>
+		<adopcion>Gorila01</adopcion>
+	</adoptante>
+	
+	<adoptante>
+		<dni>89713789M</dni>
+		<nombre>Zacarias</nombre>
+		<apellido1>Gonzalez</apellido1>
+		<edad>19</edad>
+		<localidad>Getafe</localidad>
+		<correo>zacagonzalez@gmail.com</correo>
+		<telefono tipo="fijo">912444536</telefono>
+		<adopcion>Mono03</adopcion>
+		<adopcion>Chimpance02</adopcion>
+		<adopcion>Gorila02</adopcion>
+		<adopcion>Titi04</adopcion>
+	</adoptante>
+	
+	<adoptante>
+		<dni>51235468H</dni>
+		<nombre>Beatriz</nombre>
+		<apellido1>Jimenez</apellido1>
+		<apellido2>Jimenez</apellido2>
+		<edad>22</edad>
+		<localidad>Ciempozuelos</localidad>
+		<correo>beatriz.jimenezjimenez@gmail.com</correo>
+		<telefono tipo="fijo">918085566</telefono>
+		<adopcion>Titi01</adopcion>
+		<adopcion>Titi02</adopcion>
+		<adopcion>Titi03</adopcion>
+		<adopcion>Titi05</adopcion>
+		<adopcion>Titi06</adopcion>
+	</adoptante>
+	
+	<adoptante>
+		<dni>32165489D</dni>
+		<nombre>Natalia</nombre>
+		<apellido1>Solome</apellido1>
+		<apellido2>Gutierrez</apellido2>
+		<edad>20</edad>
+		<localidad>Aranjuez</localidad>
+		<correo>natsogu00@gmail.com</correo>
+		<telefono tipo="movil">636663254</telefono>
+		<telefono tipo="movil">659875456</telefono>
+		<adopcion>Chimpance03</adopcion>
+		<adopcion>Mono02</adopcion>
+		<adopcion>Mono01</adopcion>
+		<adopcion>Macaco01</adopcion>
+	</adoptante>
+</adopciones>

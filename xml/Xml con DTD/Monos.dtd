@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT monos ((mono+))>
+	<!ELEMENT mono ((id, nombre, especie, procedencia*, edad, alimentacion, adoptado))>
+		<!ELEMENT id (#PCDATA)>
+		<!ELEMENT nombre (#PCDATA)>
+		<!ELEMENT especie (#PCDATA)>
+		<!ELEMENT procedencia ((nombrePais, clima, poblacion))>
+			<!ELEMENT nombrePais (#PCDATA)>
+			<!ELEMENT clima (#PCDATA)>
+			<!ELEMENT poblacion (#PCDATA)>
+		<!ELEMENT edad (#PCDATA)>
+		<!ELEMENT alimentacion (#PCDATA)>
+		<!ELEMENT adoptado (#PCDATA)>
