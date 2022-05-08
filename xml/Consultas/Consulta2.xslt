@@ -20,24 +20,24 @@
 					<tr>
 						<td><xsl:value-of select="especie"/><xsl:value-of select="id"/></td>
 						
-							<xsl:if test="adoptado='Si'"><td bgcolor="#FF0000">Lo está :D</td></xsl:if>
-							<xsl:if test="adoptado='No'"><td bgcolor="#00EF00">No lo está D:</td></xsl:if>
+							<xsl:if test="adoptado='Si'"><td>Lo está :D</td></xsl:if>
+							<xsl:if test="adoptado='No'"><td>No lo está D:</td></xsl:if>
 										
 						<xsl:choose>
 							<xsl:when test="edad &gt; 35">
-								<td bgcolor="#765F00">Esta viejito :c</td>
+								<td>Esta viejito :c</td>
 							</xsl:when>
 							<xsl:when test="edad &gt; 15">
-								<td bgcolor="#A48400">Recien comienza a vivir solo</td>
+								<td>Recien comienza a vivir solo</td>
 							</xsl:when>
 							<xsl:when test="edad &gt; 4">
-								<td bgcolor="#D7AD00">Chango adolescente, un capo</td>
+								<td>Chango adolescente, un capo</td>
 							</xsl:when>
 							<xsl:when test="edad &gt; 1">
-								<td bgcolor="#FFCD00">Bien chiquito</td>
+								<td>Bien chiquito</td>
 							</xsl:when>
 							<xsl:otherwise>
-								<td bgcolor="#FFE57D">Es un monito bebe :D</td>
+								<td>Es un monito bebe :D</td>
 							</xsl:otherwise>
 						</xsl:choose>
 					</tr>
