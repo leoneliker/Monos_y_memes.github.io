@@ -1,0 +1,18 @@
+table{background: #FACF20;
+border: 2px solid black;
+margin: 30px auto;
+width: 90%;
+border-collapse:collapse}
+
+a{color:black}
+	
+	
+th{font-size:21px;
+	background:#836E14}
+
+th,td{border:1px solid black;
+	padding:5px;
+	margin:auto;
+	text-align:center}
+
+h1{text-decoration:underline}
