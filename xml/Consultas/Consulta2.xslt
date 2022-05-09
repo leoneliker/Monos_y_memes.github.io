@@ -20,24 +20,24 @@
 					<tr>
 						<td><xsl:value-of select="especie"/><xsl:value-of select="id"/></td>
 						
-							<xsl:if test="adoptado='Si'"><td style="background-color:#FF0000">Lo está :D</td></xsl:if>
-							<xsl:if test="adoptado='No'"><td style="background-color:#00EF00">No lo está D:</td></xsl:if>
+							<xsl:if test="adoptado='Si'"><td bgcolor="#FF0000">Lo está :D</td></xsl:if>
+							<xsl:if test="adoptado='No'"><td bgcolor="#00EF00">No lo está D:</td></xsl:if>
 										
 						<xsl:choose>
 							<xsl:when test="edad &gt; 35">
-								<td style="background-color:#765F00">Esta viejito :c</td>
+								<td bgcolor="#765F00">Esta viejito :c</td>
 							</xsl:when>
 							<xsl:when test="edad &gt; 15">
-								<td style="background-color:#A48400">Recien comienza a vivir solo</td>
+								<td bgcolor="#A48400">Recien comienza a vivir solo</td>
 							</xsl:when>
 							<xsl:when test="edad &gt; 4">
-								<td style="background-color:#D7AD00">Chango adolescente, un capo</td>
+								<td bgcolor="#D7AD00">Chango adolescente, un capo</td>
 							</xsl:when>
 							<xsl:when test="edad &gt; 1">
-								<td style="background-color:#FFCD00">Bien chiquito</td>
+								<td bgcolor="#FFCD00">Bien chiquito</td>
 							</xsl:when>
 							<xsl:otherwise>
-								<td style="background-color:#FFE57D">Es un monito bebe :D</td>
+								<td bgcolor="#FFE57D">Es un monito bebe :D</td>
 							</xsl:otherwise>
 						</xsl:choose>
 					</tr>
